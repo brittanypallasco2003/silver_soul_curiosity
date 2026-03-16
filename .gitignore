@@ -1,0 +1,31 @@
+# --- Java & Gradle ---
+.gradle/
+build/
+bin/
+!**/src/**/build/
+*.class
+*.jar
+*.war
+*.ear
+
+# --- IntelliJ IDEA ---
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# --- VS Code ---
+.vscode/
+.history/
+*.code-workspace
+
+# --- OS específicos ---
+.DS_Store
+Thumbs.db
+
+# --- Spring Boot ---
+*.log
+.stacktrace
+
+libs/

@@ -1,0 +1,6 @@
+rootProject.name = 'silver-soul-curiosity'
+
+include 'libs'
+
+include 'payment'
+project(':payment').projectDir = file('services/payment')
