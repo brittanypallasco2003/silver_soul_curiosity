@@ -1,6 +1,6 @@
 [submodule "services/payment"]
 	path = services/payment
 	url = https://github.com/brittanypallasco2003/payment_service
-[submodule "silver_soul_curiosity_libs"]
+[submodule "libs"]
 	path = libs
 	url = https://github.com/brittanypallasco2003/silver_soul_curiosity_libs.git
