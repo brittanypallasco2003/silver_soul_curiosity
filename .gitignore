@@ -27,5 +27,3 @@ Thumbs.db
 # --- Spring Boot ---
 *.log
 .stacktrace
-
-libs/

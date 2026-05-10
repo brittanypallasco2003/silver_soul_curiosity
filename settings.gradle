@@ -3,4 +3,6 @@ rootProject.name = 'silver-soul-curiosity'
 include 'libs'
 
 include 'payment'
+include 'security'
 project(':payment').projectDir = file('services/payment')
+project(':security').projectDir = file('services/security')
