@@ -4,3 +4,6 @@
 [submodule "libs"]
 	path = libs
 	url = https://github.com/brittanypallasco2003/silver_soul_curiosity_libs
+[submodule "services/security"]
+	path = services/security
+	url = https://github.com/brittanypallasco2003/security_service

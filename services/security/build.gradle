@@ -1,6 +1,0 @@
-plugins {
-    id 'java'
-    id 'io.spring.dependency-management'
-}
-
-description = 'security module'
