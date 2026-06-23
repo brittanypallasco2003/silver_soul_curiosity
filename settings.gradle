@@ -2,7 +2,19 @@ rootProject.name = 'silver-soul-curiosity'
 
 include 'libs'
 
-include 'payment'
-include 'security'
-project(':payment').projectDir = file('services/payment')
-project(':security').projectDir = file('services/security')
+file('services').eachDir { dir ->
+    include dir.name
+    project(":${dir.name}").projectDir = dir
+
+    def buildFile = file("${dir.absolutePath}/build.gradle")
+    if (!buildFile.exists()) {
+        buildFile.text = """\
+plugins {
+    id 'java'
+    id 'io.spring.dependency-management'
+}
+
+description = '${dir.name} module'
+""".stripIndent()
+    }
+}
