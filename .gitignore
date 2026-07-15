@@ -27,3 +27,6 @@ Thumbs.db
 # --- Spring Boot ---
 *.log
 .stacktrace
+
+# --- .env ---
+.env
