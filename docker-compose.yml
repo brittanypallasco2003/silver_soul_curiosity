@@ -60,6 +60,16 @@ services:
     networks:
       - ss-network
 
+  discoveryserver:
+    build:
+      context: ./discoveryserver
+      dockerfile: Dockerfile
+    container_name: ss-discoveryserver
+    ports:
+      - "8761:8761"
+    networks:
+      - ss-network
+
 volumes:
   postgres_data:
 
