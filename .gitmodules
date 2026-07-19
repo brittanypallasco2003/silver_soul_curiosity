@@ -7,3 +7,6 @@
 [submodule "services/security"]
 	path = services/security
 	url = https://github.com/brittanypallasco2003/security_service
+[submodule "discoveryserver"]
+	path = discoveryserver
+	url = https://github.com/brittanypallasco2003/silver_soul_discovery_server.git
